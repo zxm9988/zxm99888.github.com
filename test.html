@@ -1,12 +1,36 @@
-<!DOCTYPE html PUBLIC “-//W3C//DTD HTML 4.01//EN” “http://www.w3.org/TR/html4/strict.dtd”>
+
+
 <html>
-    <body>
-    <title>
-    test
-    </title>
-    <script>
-            window.location = "QRWeibo:1923729445";
-            //setTimeout( function(){ window.location="http://itunes.apple.com/us/app/wechat!/id414478124?mt=8″; } , 1500);
-            </script>
-    </body>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+
+    <h2><a id="applink1" href="fb://profile/116201417">open facebook with fallback to appstore</a></h2>
+    <h2><a id="applink2" href="QRWeibo:1923729445">open unknown with fallback to appstore</a></h2>
+    <p><i>Only works on iPhone!</i></p>    
+
+  <script type="text/javascript">
+
+// To avoid the "protocol not supported" alert, fail must open another app.
+var appstorefail = "itms://itunes.apple.com/us/app/facebook/id284882215?mt=8&uo=6";
+
+function applink(fail){
+    return function(){
+        var clickedAt = +new Date;
+        // During tests on 3g/3gs this timeout fires immediately if less than 500ms.
+        setTimeout(function(){
+            // To avoid failing on return to MobileSafari, ensure freshness!
+            if (+new Date - clickedAt < 2000){
+                window.location = fail;
+            }
+        }, 500);    
+    };
+}
+
+document.getElementById("applink1").onclick = applink(appstorefail);
+document.getElementById("applink2").onclick = applink(appstorefail);
+
+</script>
+</body>
 </html>
