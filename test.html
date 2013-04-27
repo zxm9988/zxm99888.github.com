@@ -23,9 +23,7 @@ function applink(fail){
             if (+new Date - clickedAt < 2000){
                 window.location = fail;
             }else{
-              document.getElementById("applink1").onclick = applink(appstorefail1);
               
-              document.getElementById("applink2").onclick = applink(appstorefail2);
               
             }
             
@@ -33,6 +31,9 @@ function applink(fail){
     };
 }
 
+document.getElementById("applink1").onclick = applink(appstorefail1);
+              
+document.getElementById("applink2").onclick = applink(appstorefail2);
 //document.getElementById("applink1").onclick = applink(appstorefail);
 //document.getElementById("applink2").onclick = applink(appstorefail);
 
