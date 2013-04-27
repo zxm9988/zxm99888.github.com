@@ -5,13 +5,15 @@
   <body>
 
     <h2><a id="applink1" href="weixin:">打开微信</a></h2>
-    <h2><a id="applink2" href="QRWeibo:1923729445">打开微乐汇</a></h2>
+    <h2><a id="applink2" href="qrweibo:1923729445">打开微乐汇</a></h2>
     <p><i>Only works on iPhone!</i></p>    
 
   <script type="text/javascript">
 
 // To avoid the "protocol not supported" alert, fail must open another app.
-//var appstorefail = "itms://itunes.apple.com/us/app/facebook/id284882215?mt=8&uo=6";
+var appstorefail2 = "itms://itunes.apple.com/cn/app/wei-le-hui/id515224920?mt=8";
+var appstorefail1 = "itms://itunes.apple.com/cn/app/wei-xin/id414478124?mt=8";
+
 
 function applink(fail){
     return function(){
@@ -21,7 +23,13 @@ function applink(fail){
             // To avoid failing on return to MobileSafari, ensure freshness!
             if (+new Date - clickedAt < 2000){
                 window.location = fail;
+            }else{
+              document.getElementById("applink1").onclick = applink(appstorefail1);
+              
+              document.getElementById("applink2").onclick = applink(appstorefail2);
+              
             }
+            
         }, 500);    
     };
 }
