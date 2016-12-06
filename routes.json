@@ -1,17 +1,17 @@
 {
   "items": [
     {
-      "deploy_time": "Sun, 09 Oct 2016 15:54:22 GMT",
+      "deploy_time": "Sun, 09 Oct 2016 16:54:22 GMT",
       "remote_file": "http://h5.mplus.net.cn/filmDetail/toFilmDetail.html?filmCode=001a04152016&cinemaCode=11062001.html",
       "uri": "douban://douban.com/rexxar_demo[/]?.*"
     }
   ],
   "partial_items": [
     {
-      "deploy_time": "Sun, 09 Oct 2016 05:54:22 GMT",
-      "remote_file": "https://raw.githubusercontent.com/douban/rexxar-web/master/example/dist/rexxar/demo-252452ae58.html",
+      "deploy_time": "Sun, 09 Oct 2016 15:54:22 GMT",
+      "remote_file": "http://h5.mplus.net.cn/filmDetail/toFilmDetail.html?filmCode=001a04152016&cinemaCode=11062001.html",
       "uri": "douban://partial.douban.com/rexxar_demo/_.*"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 15:54:22 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 16:54:22 GMT"
 }
