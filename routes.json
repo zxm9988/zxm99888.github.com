@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "deploy_time": "Sun, 09 Oct 2016 16:54:22 GMT",
+      "deploy_time": "Sun, 09 Oct 2016 16:55:22 GMT",
       "remote_file": "http://h5.mplus.net.cn/filmDetail/toFilmDetail.html",
       "uri": "douban://douban.com/rexxar_demo[/]?.*"
     }
@@ -13,5 +13,5 @@
       "uri": "douban://partial.douban.com/rexxar_demo/_.*"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 16:54:22 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 16:55:22 GMT"
 }
