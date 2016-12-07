@@ -2,7 +2,7 @@
   "items": [
     {
       "deploy_time": "Sun, 09 Oct 2016 16:54:22 GMT",
-      "remote_file": "http://h5.mplus.net.cn/filmDetail/toFilmDetail.html?filmCode=001a04152016&cinemaCode=11062001.html",
+      "remote_file": "http://h5.mplus.net.cn/filmDetail/toFilmDetail.html",
       "uri": "douban://douban.com/rexxar_demo[/]?.*"
     }
   ],
