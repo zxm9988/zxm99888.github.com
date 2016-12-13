@@ -1,10 +1,15 @@
 {
   "items": [
     {
-      "deploy_time": "Sun, 09 Oct 2016 16:55:22 GMT",
-      "remote_file": "http://h5.mplus.net.cn/filmDetail/toFilmDetail.html?filmCode=001a04152016&cinemaCode=11062001",
-      "uri": "douban://douban.com/rexxar_demo[/]?.*"
+      "deploy_time": "Sun, 09 Oct 2016 16:55:23 GMT",
+      "remote_file": "http://h5.mplus.net.cn/app/film/filmDetail.html?",
+      "uri": "thyc://film/filmDetal[/]?.*"
+    },
+    {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:23 GMT",
+      "remote_file": "http://h5.mplus.net.cn/app/near/toNear.html?",
+      "uri": "thyc://film/filmDetal[/]?.*"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 20:55:22 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 20:55:23 GMT"
 }
