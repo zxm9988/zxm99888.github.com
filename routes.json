@@ -8,7 +8,7 @@
     {
       "deploy_time": "Sun, 09 Oct 2016 16:55:23 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/near/toNear.html?",
-      "uri": "thyc://film/filmDetal[/]?.*"
+      "uri": "thyc://near/toNear[/]?.*"
     }
   ],
   "deploy_time": "Sun, 09 Oct 2016 20:55:23 GMT"
