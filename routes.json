@@ -9,7 +9,12 @@
       "deploy_time": "Sun, 09 Oct 2016 16:55:24 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/near/toNear.html",
       "uri": "thyc://near/toNear?.*"
+    },
+    {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:29 GMT",
+      "remote_file": "http://h5.mplus.net.cn/app/codePay/codePayDetail.html",
+      "uri": "thyc://near/codePayDetail?.*"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 20:55:24 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 20:55:29 GMT"
 }
