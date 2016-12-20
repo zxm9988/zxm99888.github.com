@@ -1,20 +1,26 @@
 {
   "items": [
     {
-      "deploy_time": "Sun, 09 Oct 2016 16:55:24 GMT",
+      "deploy_time": "Sun, 09 Oct 2016 16:55:32 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/film/filmDetail.html",
-      "uri": "thyc://film/filmDetal?.*"
+      "uri": "thyc://film/filmDetal?.*",
+      "mode":"H5",
+      "title":"影片详情"
     },
     {
-      "deploy_time": "Sun, 09 Oct 2016 16:55:24 GMT",
+      "deploy_time": "Sun, 09 Oct 2016 16:55:32 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/near/toNear.html",
-      "uri": "thyc://near/toNear?.*"
+      "uri": "thyc://near/toNear?.*",
+      "mode":"H5",
+      "title":"附近"
     },
     {
-      "deploy_time": "Sun, 09 Oct 2016 16:55:29 GMT",
+      "deploy_time": "Sun, 09 Oct 2016 16:55:32 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/codePay/codePayDetail.html",
-      "uri": "thyc://near/codePayDetail?.*"
+      "uri": "thyc://near/codePayDetail?.*",
+      "mode":"H5",
+      "title":"二维码支付"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 20:55:29 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 20:55:31 GMT"
 }
