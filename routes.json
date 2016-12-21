@@ -3,19 +3,19 @@
     {
       "deploy_time": "Sun, 09 Oct 2016 16:55:32 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/film/filmDetail.html",
-      "uri": "thyc@H5://film/filmDetal?.*",
+      "uri": "thyc://film/filmDetal_H5?.*",
       "title":"影片详情"
     },
     {
       "deploy_time": "Sun, 09 Oct 2016 16:55:32 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/near/toNear.html",
-      "uri": "thyc@H5://near/toNear?.*",
+      "uri": "thyc://near/toNear_H5?.*",
       "title":"附近"
     },
     {
       "deploy_time": "Sun, 09 Oct 2016 16:55:32 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/codePay/codePayDetail.html",
-      "uri": "thyc@h5://near/codePayDetail?.*",
+      "uri": "thyc://near/codePayDetail_H5?.*",
       "title":"二维码支付"
     }
   ],
