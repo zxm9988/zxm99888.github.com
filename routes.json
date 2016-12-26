@@ -13,11 +13,17 @@
       "title":"附近"
     },
     {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:35 GMT",
+      "remote_file": "http://h5.mplus.net.cn/app/activity/toActivity.html",
+      "uri": "thyc://activity/toActivityCenter_H5?.*",
+      "title":"活动"
+    },
+    {
       "deploy_time": "Sun, 09 Oct 2016 16:55:33 GMT",
       "remote_file": "http://h5.mplus.net.cn/app/codePay/codePayDetail.html",
       "uri": "thyc://near/codePayDetail_H5?.*",
       "title":"二维码支付"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 20:55:33 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 20:55:35 GMT"
 }
