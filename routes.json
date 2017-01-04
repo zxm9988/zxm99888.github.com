@@ -23,7 +23,49 @@
       "remote_file": "http://h5.mplus.net.cn/app/codePay/codePayDetail.html",
       "uri": "thyc://near/codePayDetail_H5?.*",
       "title":"二维码支付"
+    },
+    {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/h5Home.html",
+      "uri": "thyc://demo/home_H5?.*",
+      "title":"首页"
+    },
+     {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/h5Login.html",
+      "uri": "thyc://demo/login_H5?.*",
+      "title":"登录"
+    },
+     {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/selectTicket.html",
+      "uri": "thyc://demo/seat_H5?.*",
+      "title":"选座"
+    },
+     {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/purchaseThing.html",
+      "uri": "thyc://demo/goods_H5?.*",
+      "title":"卖品"
+    },
+    {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/affirmIndent.html",
+      "uri": "thyc://demo/orderDetail_H5?.*",
+      "title":"结算"
+    },
+      {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/payIndent.html",
+      "uri": "thyc://demo/pay_H5?.*",
+      "title":"支付"
+    },
+       {
+      "deploy_time": "Sun, 09 Oct 2016 16:55:43 GMT",
+      "remote_file": "http://demoh5.mplus.net.cn/app/demo/paySucceed.html",
+      "uri": "thyc://demo/paySucuess_H5?.*",
+      "title":"支付成功"
     }
   ],
-  "deploy_time": "Sun, 09 Oct 2016 20:55:35 GMT"
+  "deploy_time": "Sun, 09 Oct 2016 20:55:37 GMT"
 }
