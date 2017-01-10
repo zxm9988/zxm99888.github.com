@@ -1,0 +1,110 @@
+
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" ontent="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1,user-scalable=no">
+	<title>下载安装</title>
+	<link rel="stylesheet" href="http://101.201.210.244:8080/mplus/static/css/base.css" type="text/css">
+	<link rel="stylesheet" href="http://101.201.210.244:8080/mplus/static/css/style.css" type="text/css">
+	<style>
+	body{ width: 100%; height: 100%; display:-moz-box;display:-webkit-box;display: box;-webkit-box-orient:vertical;-webkit-moz-orient:vertical;box-orient:vertical;-webkit-box-flex:1;-moz-box-flex:1; background: url(/mplus/static/images/bodyBg1.png) no-repeat;}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="logobox2">
+			<p class="load-text load-text2">混合H5 Demo </p>
+		</div>
+		<div class="btnGroup1" id="btnGroup">
+			<p class="iosBtn"><a href="itms-services://?action=download-manifest&url=https://o40kavdlc.qnssl.com/installDemo.plist"><img src="http://101.201.210.244:8080/mplus/static/download/images/mj_iosBtn.png" alt=""></a></p>
+			<p class="andrioBtn1 textp">适用于iOS9.0及以上</p>
+		</div>
+	</div>
+	<div class="markbox1" id="markbox1">
+		<ul>
+			<li class="first-bg"></li>
+			<li class="second-bg"></li>
+		</ul>
+	</div>
+	<div class="markbox1" id="markbox2">
+		<p class="first-bg1"></p>
+	</div>
+	<script src="js/jquery-2.2.0.js"></script>
+	<script type="text/javascript">
+
+	var is_weixin = (function() {
+
+	    var ua = navigator.userAgent.toLowerCase();
+
+	    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+
+	        return true;
+
+	    } else {
+
+	        return false;
+
+	    }
+
+	})();
+
+    var u = navigator.userAgent, app = navigator.appVersion;
+    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+    var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
+	window.onload = function(){
+
+		var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
+
+		var btn = document.getElementById('andrioBtn');
+		var btn = document.getElementById('btnGroup');
+		var tip = document.getElementById('markbox1');
+		var tip1 = document.getElementById('markbox2');
+
+		if(is_weixin && isAndroid){
+
+			btn.onclick = function(e){
+				tip.style.height = winHeight + 'px';
+
+				tip.style.display = 'block';
+
+				return false;
+
+			}
+
+			tip.onclick = function(){
+
+				this.style.display = 'none';
+
+			}
+
+		}else if(is_weixin && isIOS){
+
+			btn.onclick = function(e){
+				tip1.style.height = winHeight + 'px';
+
+				tip1.style.display = 'block';
+
+				return false;
+
+			}
+
+			tip1.onclick = function(){
+
+				this.style.display = 'none';
+
+			}
+		}
+	}
+</script>
+</body>
+</html>
